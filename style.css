@@ -190,6 +190,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.about__img {
+  margin-right: 15px;
+}
 .about__image {
   height: 870px;
   width: 550px;
@@ -221,4 +224,25 @@ body {
   font-size: 22px;
   line-height: 30px;
   color: #177165;
+}
+.about__item--bottom {
+  margin-bottom: 95px;
+}
+.about__link {
+  font-size: 16px;
+  line-height: 26px;
+  color: #177165;
+  padding: 10px 70px 10px 50px;
+
+  box-sizing: border-box;
+  border: 2px solid #177165;
+  border-radius: 0px;
+}
+.about__link::after {
+  content: "+";
+  position: absolute;
+  height: 26px;
+  width: 9px;
+  color: #177165;
+  margin-left: 10px;
 }
