@@ -35,6 +35,7 @@ body {
   font-size: 48px;
   line-height: 58px;
   color: #177165;
+  margin-bottom: 50px;
 }
 
 .nav {
@@ -184,7 +185,6 @@ body {
 .title--about {
   width: 995px;
   max-width: 100%;
-  margin-bottom: 50px;
 }
 .about__inner {
   display: flex;
@@ -245,4 +245,43 @@ body {
   width: 9px;
   color: #177165;
   margin-left: 10px;
+}
+
+/* Services */
+.services {
+  padding: 100px 0;
+  background-color: #e1f4f2;
+}
+.services__subtitle {
+  font-size: 17px;
+  line-height: 29px;
+  position: relative;
+  color: #777777;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+.services__subtitle::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  left: 0;
+  top: 10px;
+  background-color: #777777;
+}
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.services__item {
+  max-width: 270px;
+  width: 100%;
+}
+.services__title {
+  font-family: "Playfair Display";
+  font-weight: 400px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #177165;
 }
