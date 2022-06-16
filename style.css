@@ -233,7 +233,6 @@ body {
   line-height: 26px;
   color: #177165;
   padding: 10px 70px 10px 50px;
-
   box-sizing: border-box;
   border: 2px solid #177165;
   border-radius: 0px;
@@ -284,4 +283,23 @@ body {
   font-size: 22px;
   line-height: 36px;
   color: #177165;
+  margin-bottom: 73px;
+}
+.services__link {
+  padding: 10px 70px 10px 50px;
+  box-sizing: border-box;
+  border: 2px solid #177165;
+  border-radius: 0px;
+  display: block;
+  max-width: 212px;
+  width: 100%;
+  margin: 0 auto;
+}
+.services__link::after {
+  content: "+";
+  position: absolute;
+  height: 26px;
+  width: 9px;
+  color: #177165;
+  margin-left: 10px;
 }
