@@ -364,3 +364,38 @@ body {
   width: 100%;
   margin-top: 18px;
 }
+
+/* Company section */
+
+.company {
+  background-color: #177165;
+}
+.company--container {
+  height: 415px;
+}
+.company__inner {
+  display: flex;
+}
+.company__text {
+  margin-right: 50px;
+}
+.company--title {
+  color: #ffffff;
+  max-width: 670px;
+  width: 100%;
+}
+.company--subtitle {
+  color: #a4d6cf;
+  margin-bottom: 11px;
+  margin-top: 100px;
+}
+.company--subtitle::after {
+  background-color: #a4d6cf;
+  justify-content: space-between;
+}
+.company__image {
+  height: 415px;
+  max-width: 570px;
+  width: 100%;
+  object-fit: cover;
+}
