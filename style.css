@@ -399,3 +399,52 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+/* Project */
+.project {
+  padding: 100px 0 210px;
+}
+.project__list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1f4f2;
+  padding: 65px;
+  margin-bottom: 100px;
+}
+.project__count {
+  font-size: 45px;
+  line-height: 73px;
+  text-align: center;
+  color: #177165;
+}
+.project__field {
+  height: 530px;
+}
+.project__img {
+  max-width: 1140px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.project__text {
+  padding: 60px 50px 60px;
+  background-color: #177165;
+  height: 335px;
+  width: 265px;
+  position: absolute;
+  margin-top: 195px;
+}
+.project__text-subtitle {
+  font-size: 15px;
+  line-height: 26px;
+  color: #a4d6cf;
+  margin-top: 20px;
+}
+.project__text-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #ffffff;
+}
