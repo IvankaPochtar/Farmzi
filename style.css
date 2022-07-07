@@ -447,6 +447,7 @@ body {
 
 /* Clients  */
 .clients {
+  margin-top: 210px;
   padding: 100px 0 150px;
   background-color: #e1f4f2;
   color: #177165;
@@ -552,7 +553,7 @@ body {
   color: #177165;
   margin-left: 10px;
 }
-.news__icons--inner {
+.news__icons-inner {
   padding: 100px 0;
   background-color: #e1f4f2;
 }
