@@ -61,6 +61,10 @@ body {
   padding: 25px 10px;
   color: #a4d6cf;
 }
+@media (max-width: 480px) {
+  padding: 15px 0;
+}
+
 .nav__container {
   display: flex;
   justify-content: space-between;
@@ -72,6 +76,12 @@ body {
 .nav__menu {
   display: flex;
 }
+@media (max-width: 992px) {
+  .nav__menu {
+    display: none;
+  }
+}
+
 .nav__item {
   margin-right: 40px;
   text-transform: lowercase;
@@ -104,6 +114,14 @@ body {
   top: 8px;
   background-image: url(./img/icons/phone.png);
 }
+@media (max-width: 568px) {
+  .nav__phone {
+    padding-left: 15px;
+  }
+  .nav__phone:before {
+    width: 0;
+  }
+}
 .nav__phone-title {
   font-size: 17px;
   line-height: 29px;
@@ -121,13 +139,30 @@ body {
   padding: 100px 0;
   color: #fff;
 }
+@media (max-width^ 768px) {
+  .hero {
+    padding: 50px 0;
+  }
+}
 .hero__inner {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 768px) {
+  .hero__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .hero__text {
   max-width: 550px;
   width: 100%;
+}
+@media (max-width: 480px) {
+  .hero__text {
+    margin-bottom: 50px;
+  }
 }
 .hero__title {
   font-family: "Playfair Display";
@@ -136,6 +171,12 @@ body {
   max-width: 455px;
   width: 100%;
   margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 36px;
+    line-height: 50px;
+  }
 }
 .hero__services {
   position: relative;
@@ -158,6 +199,17 @@ body {
   width: 420px;
   height: 590px;
   object-fit: cover;
+}
+@media (max-width: 768px) {
+  .hero__img {
+    height: 500px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__img {
+    width: 300px;
+    height: 400px;
+  }
 }
 
 /* About */
@@ -635,3 +687,11 @@ body {
   line-height: 26px;
   color: #a4d6cf;
 }
+/* 
+ </div>
+Медіа запити
+1224px
+992px
+480px
+320px
+ */
