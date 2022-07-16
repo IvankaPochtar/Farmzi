@@ -652,9 +652,18 @@ body {
 }
 @media (max-width: 768px) {
   .project__list {
-    font-weight: wrap;
+    flex-wrap: wrap;
   }
 }
+@media (max-width: 320px) {
+  .project__list {
+    justify-content: center;
+  }
+  .subtitle {
+    margin-bottom: 25px;
+  }
+}
+
 /* Clients  */
 .clients {
   margin-top: 210px;
