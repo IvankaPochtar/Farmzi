@@ -659,6 +659,10 @@ body {
   .project__list {
     justify-content: center;
   }
+  .project__count {
+    font-size: 35px;
+    line-height: 25px;
+  }
   .subtitle {
     margin-bottom: 25px;
   }
